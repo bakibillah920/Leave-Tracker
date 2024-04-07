@@ -1,0 +1,1 @@
+{!!  Form::select('category_id',$all_leave,'',['class'=>'form-control selectTwo','id'=>'category_id']) !!}
