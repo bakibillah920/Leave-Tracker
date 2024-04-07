@@ -4,7 +4,7 @@
             <td>Reviewed By : &nbsp;&nbsp;&nbsp; </td>
             <td> 
                 <?php
-                    if(!empty($row['approved_by'])){
+                    if(!empty($leaveapp['approved_by'])){
                         echo Helper::get_type_name_by_id('users', $leaveapp->approved_by);
                     }else{
                         echo 'Unreviewed';
